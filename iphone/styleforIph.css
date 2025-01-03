@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: skyblue;
+  background-image: url("../AdobeStock_87909563.jpg");
+  background-size: cover;
+  background-size: auto;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  border: 2px solid black;
+  background: radial-gradient(white, rgb(67, 140, 244));
+}
+.grid-iphone16pro {
+  display: grid;
+  gap: 10px;
+  box-sizing: inherit;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 20px;
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  unicode-bidi: isolate;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.column-iphone16 {
+  padding: 10px;
+  display: block;
+  box-sizing: inherit;
+}
+img {
+  align-content: center;
+  display: block;
+  margin-inline: auto;
+}
+h2 {
+  margin: 10px 0;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.2;
+}
+.column-iphone1 {
+  padding: 10px;
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  unicode-bidi: isolate;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.general section {
+  display: block;
+  padding: 2.4rem;
+  background-color: darkgray;
+  margin-bottom: 0.4rem;
+  box-sizing: inherit;
+}
+.section body {
+  width: 100%;
+  box-sizing: inherit;
+  display: block;
+}
+ul {
+}
+li {
+  /* display: list-item; */
+  list-style-type: disc;
+  box-sizing: border-box;
+}
+.videoprev {
+  display: flex;
+  justify-content: center;
+}
