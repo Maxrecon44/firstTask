@@ -63,3 +63,15 @@ a:visited {
   max-height: 850px;
   flex-wrap: .product .product-container .product:hover
 }
+p:first-child {
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 500px;
+  margin: 25px;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+  align-items: center;  
+  display: block;
+}
